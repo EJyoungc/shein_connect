@@ -11,8 +11,8 @@ class AppConfig {
   static late final String supabaseUrl;
   static late final String supabaseAnonKey;
   static late final String environment;
-  static const String appVersion = '1.0.0';
-  static const int buildNumber = 1;
+  static const String appVersion = '1.0.1';
+  static const int buildNumber = 2;
 
   static bool _isInitialized = false;
   static bool get isInitialized => _isInitialized;

@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.0.1] - 2026-09-23
+- Release version 1.0.1+2.
+
 ## 2026-09-23
 - **Layout & Constraint Fixes**:
   - Fixed infinite-width assertion crash in `AppTheme` by adjusting `minimumSize` on `ElevatedButton` and `OutlinedButton` to `Size(0, 48)` and adding safe constraints.
